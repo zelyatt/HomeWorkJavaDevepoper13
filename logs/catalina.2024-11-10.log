@@ -1,0 +1,903 @@
+10-Nov-2024 19:01:42.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.31
+10-Nov-2024 19:01:42.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 19:02:38 UTC
+10-Nov-2024 19:01:42.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.31.0
+10-Nov-2024 19:01:42.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2024 19:01:42.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             12.2
+10-Nov-2024 19:01:42.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           x86_64
+10-Nov-2024 19:01:42.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+10-Nov-2024 19:01:42.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21+35-LTS-2513
+10-Nov-2024 19:01:42.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+10-Nov-2024 19:01:42.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:01:42.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:01:42.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2024 19:01:42.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2024 19:01:42.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2024 19:01:42.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2024 19:01:42.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2024 19:01:42.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:01:42.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:01:42.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/temp
+10-Nov-2024 19:01:42.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/logging.properties
+10-Nov-2024 19:01:42.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2024 19:01:42.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64633:/Applications/IntelliJ IDEA.app/Contents/bin
+10-Nov-2024 19:01:42.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2024 19:01:42.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+10-Nov-2024 19:01:42.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+10-Nov-2024 19:01:42.268 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vladislavzelinskij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2024 19:01:43.284 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:01:43.317 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1828] milliseconds
+10-Nov-2024 19:01:43.570 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2024 19:01:43.573 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+10-Nov-2024 19:01:43.586 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/ROOT.xml]
+10-Nov-2024 19:01:47.239 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Nov-2024 19:01:47.295 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/ROOT.xml] has finished in [3 697] ms
+10-Nov-2024 19:01:47.300 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:01:47.321 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4001] milliseconds
+10-Nov-2024 19:02:21.729 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:02:21.737 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Nov-2024 19:02:21.759 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:02:21.767 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:02:25.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.31
+10-Nov-2024 19:02:25.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 19:02:38 UTC
+10-Nov-2024 19:02:25.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.31.0
+10-Nov-2024 19:02:25.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2024 19:02:25.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             12.2
+10-Nov-2024 19:02:25.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           x86_64
+10-Nov-2024 19:02:25.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+10-Nov-2024 19:02:25.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21+35-LTS-2513
+10-Nov-2024 19:02:25.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+10-Nov-2024 19:02:25.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:02:25.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:02:25.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2024 19:02:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2024 19:02:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2024 19:02:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2024 19:02:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2024 19:02:25.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:02:25.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:02:25.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/temp
+10-Nov-2024 19:02:25.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/logging.properties
+10-Nov-2024 19:02:25.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2024 19:02:25.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64638:/Applications/IntelliJ IDEA.app/Contents/bin
+10-Nov-2024 19:02:25.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2024 19:02:25.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+10-Nov-2024 19:02:25.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+10-Nov-2024 19:02:25.269 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vladislavzelinskij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2024 19:02:26.406 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:02:26.437 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1859] milliseconds
+10-Nov-2024 19:02:26.493 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2024 19:02:26.493 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+10-Nov-2024 19:02:26.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+10-Nov-2024 19:02:28.601 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Nov-2024 19:02:28.630 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml] has finished in [2 118] ms
+10-Nov-2024 19:02:28.633 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:02:28.646 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2206] milliseconds
+10-Nov-2024 19:03:24.630 INFO [http-nio-8084-exec-9] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.6.1.Final
+10-Nov-2024 19:03:24.635 INFO [http-nio-8084-exec-9] org.hibernate.cfg.Environment.<clinit> HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.driver_class=org.h2.Driver, hibernate.format_sql=true, hibernate.dialect=org.hibernate.dialect.H2Dialect, hibernate.connection.password=****, hibernate.connection.username=sa, jakarta.persistence.jdbc.url=jdbc:h2:./hibernate2, hibernate.connection.url=jdbc:h2:./hibernate2, hibernate.connection.pool_size=10, hibernate.connection.autocommit=true, hibernate.show_sql=true}
+10-Nov-2024 19:06:28.997 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:06:29.004 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Nov-2024 19:06:29.043 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:06:29.060 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:06:31.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.31
+10-Nov-2024 19:06:31.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 19:02:38 UTC
+10-Nov-2024 19:06:31.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.31.0
+10-Nov-2024 19:06:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2024 19:06:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             12.2
+10-Nov-2024 19:06:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           x86_64
+10-Nov-2024 19:06:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+10-Nov-2024 19:06:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21+35-LTS-2513
+10-Nov-2024 19:06:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+10-Nov-2024 19:06:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:06:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:06:31.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2024 19:06:31.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2024 19:06:31.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2024 19:06:31.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2024 19:06:31.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2024 19:06:31.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:06:31.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:06:31.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/temp
+10-Nov-2024 19:06:31.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/logging.properties
+10-Nov-2024 19:06:31.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2024 19:06:31.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64659:/Applications/IntelliJ IDEA.app/Contents/bin
+10-Nov-2024 19:06:31.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2024 19:06:31.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+10-Nov-2024 19:06:31.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+10-Nov-2024 19:06:31.457 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vladislavzelinskij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2024 19:06:32.128 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:06:32.161 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1040] milliseconds
+10-Nov-2024 19:06:32.221 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2024 19:06:32.221 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+10-Nov-2024 19:06:32.231 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+10-Nov-2024 19:06:33.993 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Nov-2024 19:06:34.022 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml] has finished in [1 788] ms
+10-Nov-2024 19:06:34.025 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:06:34.037 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1874] milliseconds
+10-Nov-2024 19:09:14.362 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:09:14.365 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Nov-2024 19:09:14.382 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:09:14.390 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:09:16.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.31
+10-Nov-2024 19:09:16.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 19:02:38 UTC
+10-Nov-2024 19:09:16.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.31.0
+10-Nov-2024 19:09:16.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2024 19:09:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             12.2
+10-Nov-2024 19:09:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           x86_64
+10-Nov-2024 19:09:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+10-Nov-2024 19:09:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21+35-LTS-2513
+10-Nov-2024 19:09:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+10-Nov-2024 19:09:16.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:09:16.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:09:16.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2024 19:09:16.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2024 19:09:16.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2024 19:09:16.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2024 19:09:16.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2024 19:09:16.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:09:16.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:09:16.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/temp
+10-Nov-2024 19:09:16.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/logging.properties
+10-Nov-2024 19:09:16.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2024 19:09:16.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64674:/Applications/IntelliJ IDEA.app/Contents/bin
+10-Nov-2024 19:09:16.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2024 19:09:16.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+10-Nov-2024 19:09:16.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+10-Nov-2024 19:09:16.502 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vladislavzelinskij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2024 19:09:17.153 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:09:17.178 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [982] milliseconds
+10-Nov-2024 19:09:17.248 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2024 19:09:17.248 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+10-Nov-2024 19:09:17.258 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+10-Nov-2024 19:09:19.121 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Nov-2024 19:09:19.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml] has finished in [1 895] ms
+10-Nov-2024 19:09:19.159 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:09:19.171 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1992] milliseconds
+10-Nov-2024 19:12:00.406 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:12:00.422 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Nov-2024 19:12:00.503 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:12:00.513 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:12:02.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.31
+10-Nov-2024 19:12:02.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 19:02:38 UTC
+10-Nov-2024 19:12:02.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.31.0
+10-Nov-2024 19:12:02.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2024 19:12:02.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             12.2
+10-Nov-2024 19:12:02.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           x86_64
+10-Nov-2024 19:12:02.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+10-Nov-2024 19:12:02.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21+35-LTS-2513
+10-Nov-2024 19:12:02.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+10-Nov-2024 19:12:02.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:12:02.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:12:02.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2024 19:12:02.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2024 19:12:02.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2024 19:12:02.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2024 19:12:02.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2024 19:12:02.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:12:02.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:12:02.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/temp
+10-Nov-2024 19:12:02.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/logging.properties
+10-Nov-2024 19:12:02.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2024 19:12:02.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64685:/Applications/IntelliJ IDEA.app/Contents/bin
+10-Nov-2024 19:12:02.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2024 19:12:02.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+10-Nov-2024 19:12:02.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+10-Nov-2024 19:12:02.915 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vladislavzelinskij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2024 19:12:03.525 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:12:03.560 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1115] milliseconds
+10-Nov-2024 19:12:03.615 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2024 19:12:03.615 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+10-Nov-2024 19:12:03.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+10-Nov-2024 19:12:05.564 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Nov-2024 19:12:05.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml] has finished in [1 972] ms
+10-Nov-2024 19:12:05.605 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:12:05.618 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2057] milliseconds
+10-Nov-2024 19:12:17.431 INFO [http-nio-8084-exec-4] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.6.1.Final
+10-Nov-2024 19:12:17.436 INFO [http-nio-8084-exec-4] org.hibernate.cfg.Environment.<clinit> HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.driver_class=org.h2.Driver, hibernate.format_sql=true, hibernate.dialect=org.hibernate.dialect.H2Dialect, hibernate.connection.password=****, hibernate.connection.username=sa, jakarta.persistence.jdbc.url=jdbc:h2:./hibernate2, hibernate.connection.url=jdbc:h2:./hibernate2, hibernate.connection.pool_size=10, hibernate.connection.autocommit=true, hibernate.show_sql=true}
+10-Nov-2024 19:13:58.245 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:13:58.249 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Nov-2024 19:13:58.278 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:13:58.290 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:14:00.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.31
+10-Nov-2024 19:14:00.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 19:02:38 UTC
+10-Nov-2024 19:14:00.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.31.0
+10-Nov-2024 19:14:00.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2024 19:14:00.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             12.2
+10-Nov-2024 19:14:00.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           x86_64
+10-Nov-2024 19:14:00.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+10-Nov-2024 19:14:00.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21+35-LTS-2513
+10-Nov-2024 19:14:00.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+10-Nov-2024 19:14:00.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:14:00.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:14:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2024 19:14:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2024 19:14:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2024 19:14:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2024 19:14:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2024 19:14:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:14:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:14:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/temp
+10-Nov-2024 19:14:00.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/logging.properties
+10-Nov-2024 19:14:00.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2024 19:14:00.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64701:/Applications/IntelliJ IDEA.app/Contents/bin
+10-Nov-2024 19:14:00.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2024 19:14:00.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+10-Nov-2024 19:14:00.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+10-Nov-2024 19:14:00.393 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vladislavzelinskij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2024 19:14:01.068 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:14:01.097 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1118] milliseconds
+10-Nov-2024 19:14:01.176 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2024 19:14:01.177 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+10-Nov-2024 19:14:01.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/Users#vladislavzelinskij#IdeaProjects#HomeWorkJavaDevepoper12#conf#Catalina#localhost#HomeWorkJavaDevepoper12.xml .xml]
+10-Nov-2024 19:14:03.301 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Nov-2024 19:14:03.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/Users#vladislavzelinskij#IdeaProjects#HomeWorkJavaDevepoper12#conf#Catalina#localhost#HomeWorkJavaDevepoper12.xml .xml] has finished in [2 143] ms
+10-Nov-2024 19:14:03.337 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:14:03.350 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2251] milliseconds
+10-Nov-2024 19:16:43.322 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:16:43.326 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Nov-2024 19:16:43.350 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:16:43.365 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:16:45.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.31
+10-Nov-2024 19:16:45.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 19:02:38 UTC
+10-Nov-2024 19:16:45.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.31.0
+10-Nov-2024 19:16:45.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2024 19:16:45.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             12.2
+10-Nov-2024 19:16:45.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           x86_64
+10-Nov-2024 19:16:45.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+10-Nov-2024 19:16:45.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21+35-LTS-2513
+10-Nov-2024 19:16:45.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+10-Nov-2024 19:16:45.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:16:45.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:16:45.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2024 19:16:45.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2024 19:16:45.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2024 19:16:45.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2024 19:16:45.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2024 19:16:45.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:16:45.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:16:45.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/temp
+10-Nov-2024 19:16:45.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/logging.properties
+10-Nov-2024 19:16:45.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2024 19:16:45.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64716:/Applications/IntelliJ IDEA.app/Contents/bin
+10-Nov-2024 19:16:45.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2024 19:16:45.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+10-Nov-2024 19:16:45.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+10-Nov-2024 19:16:45.500 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vladislavzelinskij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2024 19:16:46.153 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:16:46.209 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1051] milliseconds
+10-Nov-2024 19:16:46.298 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2024 19:16:46.298 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+10-Nov-2024 19:16:46.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+10-Nov-2024 19:16:46.334 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/webapps] inside the host appBase has been specified, and will be ignored
+10-Nov-2024 19:16:46.391 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3e78b6a5]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4108)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4230)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/webapps/HomeWorkJavaDevepoper12] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+10-Nov-2024 19:16:46.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml] has finished in [83] ms
+10-Nov-2024 19:16:46.404 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:16:46.436 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [225] milliseconds
+10-Nov-2024 19:17:24.685 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:17:24.697 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Nov-2024 19:17:24.702 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:17:24.713 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8084"]
+10-Nov-2024 19:17:24.715 SEVERE [Thread-1] org.apache.catalina.core.StandardContext.resourcesStop Error stopping static Resources
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@531cc24b] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.core.StandardContext.resourcesStop(StandardContext.java:4132)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:965)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:969)
+10-Nov-2024 19:17:24.716 SEVERE [Thread-1] org.apache.catalina.util.LifecycleBase.destroy Called stop() on failed component [org.apache.catalina.webresources.StandardRoot@3e78b6a5] to trigger clean-up but it failed too
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@531cc24b] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.StandardContext.destroyInternal(StandardContext.java:4760)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:965)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:969)
+10-Nov-2024 19:17:26.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.31
+10-Nov-2024 19:17:27.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 19:02:38 UTC
+10-Nov-2024 19:17:27.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.31.0
+10-Nov-2024 19:17:27.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2024 19:17:27.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             12.2
+10-Nov-2024 19:17:27.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           x86_64
+10-Nov-2024 19:17:27.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+10-Nov-2024 19:17:27.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21+35-LTS-2513
+10-Nov-2024 19:17:27.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+10-Nov-2024 19:17:27.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:17:27.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:17:27.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2024 19:17:27.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2024 19:17:27.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2024 19:17:27.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2024 19:17:27.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2024 19:17:27.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:17:27.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:17:27.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/temp
+10-Nov-2024 19:17:27.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/logging.properties
+10-Nov-2024 19:17:27.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2024 19:17:27.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64723:/Applications/IntelliJ IDEA.app/Contents/bin
+10-Nov-2024 19:17:27.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2024 19:17:27.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+10-Nov-2024 19:17:27.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+10-Nov-2024 19:17:27.037 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vladislavzelinskij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2024 19:17:27.851 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:17:27.884 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1297] milliseconds
+10-Nov-2024 19:17:27.949 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2024 19:17:27.949 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+10-Nov-2024 19:17:27.962 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+10-Nov-2024 19:17:27.995 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/webapps] inside the host appBase has been specified, and will be ignored
+10-Nov-2024 19:17:28.049 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@41f69e84]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4108)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4230)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/webapps/HomeWorkJavaDevepoper12] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+10-Nov-2024 19:17:28.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml] has finished in [89] ms
+10-Nov-2024 19:17:28.069 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:17:28.157 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [271] milliseconds
+10-Nov-2024 19:23:26.746 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:23:26.773 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Nov-2024 19:23:26.783 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:23:26.810 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:23:26.818 SEVERE [Thread-1] org.apache.catalina.core.StandardContext.resourcesStop Error stopping static Resources
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@4e782da0] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.core.StandardContext.resourcesStop(StandardContext.java:4132)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:965)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:969)
+10-Nov-2024 19:23:26.820 SEVERE [Thread-1] org.apache.catalina.util.LifecycleBase.destroy Called stop() on failed component [org.apache.catalina.webresources.StandardRoot@41f69e84] to trigger clean-up but it failed too
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@4e782da0] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.StandardContext.destroyInternal(StandardContext.java:4760)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:965)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:969)
+10-Nov-2024 19:23:28.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.31
+10-Nov-2024 19:23:28.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 19:02:38 UTC
+10-Nov-2024 19:23:28.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.31.0
+10-Nov-2024 19:23:28.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2024 19:23:28.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             12.2
+10-Nov-2024 19:23:28.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           x86_64
+10-Nov-2024 19:23:28.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+10-Nov-2024 19:23:28.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21+35-LTS-2513
+10-Nov-2024 19:23:28.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+10-Nov-2024 19:23:28.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:23:28.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:23:28.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2024 19:23:28.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2024 19:23:28.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2024 19:23:28.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2024 19:23:28.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2024 19:23:28.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:23:28.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:23:28.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/temp
+10-Nov-2024 19:23:28.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/logging.properties
+10-Nov-2024 19:23:28.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2024 19:23:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64749:/Applications/IntelliJ IDEA.app/Contents/bin
+10-Nov-2024 19:23:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2024 19:23:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+10-Nov-2024 19:23:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+10-Nov-2024 19:23:28.996 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vladislavzelinskij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2024 19:23:29.554 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:23:29.584 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [943] milliseconds
+10-Nov-2024 19:23:29.633 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2024 19:23:29.634 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+10-Nov-2024 19:23:29.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+10-Nov-2024 19:23:29.679 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/webapps] inside the host appBase has been specified, and will be ignored
+10-Nov-2024 19:23:29.721 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@28194a50]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4108)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4230)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/webapps/HomeWorkJavaDevepoper12] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+10-Nov-2024 19:23:29.727 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml] has finished in [80] ms
+10-Nov-2024 19:23:29.732 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:23:29.752 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [167] milliseconds
+10-Nov-2024 19:29:44.750 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:29:44.779 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Nov-2024 19:29:44.790 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:29:44.824 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:29:44.831 SEVERE [Thread-1] org.apache.catalina.core.StandardContext.resourcesStop Error stopping static Resources
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@5c2b26c2] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.core.StandardContext.resourcesStop(StandardContext.java:4132)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:965)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:969)
+10-Nov-2024 19:29:44.832 SEVERE [Thread-1] org.apache.catalina.util.LifecycleBase.destroy Called stop() on failed component [org.apache.catalina.webresources.StandardRoot@28194a50] to trigger clean-up but it failed too
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@5c2b26c2] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.StandardContext.destroyInternal(StandardContext.java:4760)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:965)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:969)
+10-Nov-2024 19:29:47.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.31
+10-Nov-2024 19:29:47.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 19:02:38 UTC
+10-Nov-2024 19:29:47.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.31.0
+10-Nov-2024 19:29:47.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2024 19:29:47.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             12.2
+10-Nov-2024 19:29:47.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           x86_64
+10-Nov-2024 19:29:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+10-Nov-2024 19:29:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21+35-LTS-2513
+10-Nov-2024 19:29:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+10-Nov-2024 19:29:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:29:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:29:47.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2024 19:29:47.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2024 19:29:47.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2024 19:29:47.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2024 19:29:47.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2024 19:29:47.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:29:47.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:29:47.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/temp
+10-Nov-2024 19:29:47.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/logging.properties
+10-Nov-2024 19:29:47.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2024 19:29:47.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64765:/Applications/IntelliJ IDEA.app/Contents/bin
+10-Nov-2024 19:29:47.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2024 19:29:47.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+10-Nov-2024 19:29:47.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+10-Nov-2024 19:29:47.555 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vladislavzelinskij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2024 19:29:48.153 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:29:48.184 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1002] milliseconds
+10-Nov-2024 19:29:48.238 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2024 19:29:48.239 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+10-Nov-2024 19:29:48.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+10-Nov-2024 19:29:48.278 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/webapps] inside the host appBase has been specified, and will be ignored
+10-Nov-2024 19:29:48.326 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@60db1c0e]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4108)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4230)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/webapps/HomeWorkJavaDevepoper12] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+10-Nov-2024 19:29:48.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml] has finished in [78] ms
+10-Nov-2024 19:29:48.337 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:29:48.359 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [173] milliseconds
+10-Nov-2024 19:30:14.594 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:30:14.607 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Nov-2024 19:30:14.608 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:30:14.613 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:30:14.615 SEVERE [Thread-1] org.apache.catalina.core.StandardContext.resourcesStop Error stopping static Resources
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@37feacff] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.core.StandardContext.resourcesStop(StandardContext.java:4132)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:965)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:969)
+10-Nov-2024 19:30:14.616 SEVERE [Thread-1] org.apache.catalina.util.LifecycleBase.destroy Called stop() on failed component [org.apache.catalina.webresources.StandardRoot@60db1c0e] to trigger clean-up but it failed too
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@37feacff] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.StandardContext.destroyInternal(StandardContext.java:4760)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:965)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:969)
+10-Nov-2024 19:30:18.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.31
+10-Nov-2024 19:30:18.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Oct 3 2024 19:02:38 UTC
+10-Nov-2024 19:30:18.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.31.0
+10-Nov-2024 19:30:18.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Nov-2024 19:30:18.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             12.2
+10-Nov-2024 19:30:18.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           x86_64
+10-Nov-2024 19:30:18.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+10-Nov-2024 19:30:18.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            21+35-LTS-2513
+10-Nov-2024 19:30:18.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+10-Nov-2024 19:30:18.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:30:18.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:30:18.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Nov-2024 19:30:18.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Nov-2024 19:30:18.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Nov-2024 19:30:18.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Nov-2024 19:30:18.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Nov-2024 19:30:18.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/vladislavzelinskij/Downloads/apache-tomcat-10.1.31
+10-Nov-2024 19:30:18.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12
+10-Nov-2024 19:30:18.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/temp
+10-Nov-2024 19:30:18.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/logging.properties
+10-Nov-2024 19:30:18.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Nov-2024 19:30:18.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64771:/Applications/IntelliJ IDEA.app/Contents/bin
+10-Nov-2024 19:30:18.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Nov-2024 19:30:18.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+10-Nov-2024 19:30:18.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+10-Nov-2024 19:30:18.246 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vladislavzelinskij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Nov-2024 19:30:18.727 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:30:18.755 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [860] milliseconds
+10-Nov-2024 19:30:18.820 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Nov-2024 19:30:18.821 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+10-Nov-2024 19:30:18.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+10-Nov-2024 19:30:18.919 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/webapps] inside the host appBase has been specified, and will be ignored
+10-Nov-2024 19:30:19.002 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@64b0598]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4108)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4230)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/webapps/HomeWorkJavaDevepoper12] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+10-Nov-2024 19:30:19.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/vladislavzelinskij/IdeaProjects/HomeWorkJavaDevepoper12/conf/Catalina/localhost/HomeWorkJavaDevepoper12.xml] has finished in [120] ms
+10-Nov-2024 19:30:19.016 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:30:19.041 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [284] milliseconds
+10-Nov-2024 19:56:26.963 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:56:27.001 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Nov-2024 19:56:27.029 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:56:27.051 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+10-Nov-2024 19:56:27.065 SEVERE [Thread-1] org.apache.catalina.core.StandardContext.resourcesStop Error stopping static Resources
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@5b1b03ca] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.core.StandardContext.resourcesStop(StandardContext.java:4132)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:965)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:969)
+10-Nov-2024 19:56:27.067 SEVERE [Thread-1] org.apache.catalina.util.LifecycleBase.destroy Called stop() on failed component [org.apache.catalina.webresources.StandardRoot@64b0598] to trigger clean-up but it failed too
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@5b1b03ca] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.StandardContext.destroyInternal(StandardContext.java:4760)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:965)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:969)
