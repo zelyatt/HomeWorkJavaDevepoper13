@@ -115,8 +115,14 @@
         <version>2.3.232</version> <!-- Указываем нужную версию -->
         <scope>runtime</scope>
     </dependency>
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
 
 
-</dependencies>
+
+    </dependencies>
 
 </project>
