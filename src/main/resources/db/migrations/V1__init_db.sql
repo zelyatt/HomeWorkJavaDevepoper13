@@ -18,8 +18,11 @@ CREATE TABLE ticket (
                         client_id BIGINT NOT NULL,
                         from_planet_id VARCHAR(10) NOT NULL,
                         to_planet_id VARCHAR(10) NOT NULL,
+                        price DECIMAL(10, 2) NOT NULL,
                         FOREIGN KEY (client_id) REFERENCES client(id),
                         FOREIGN KEY (from_planet_id) REFERENCES planet(id),
                         FOREIGN KEY (to_planet_id) REFERENCES planet(id)
 );
+ALTER TABLE ticket
+    ADD COLUMN price DECIMAL(10, 2) NOT NULL;
 
